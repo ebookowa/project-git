@@ -1,0 +1,172 @@
+/* Variables */
+/* blue */
+/* white */
+/* mint */
+/* darkblue */
+/* coral */
+/* global */
+/* splash */
+nav {
+  height: 600px;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/55781/pexels-photo-55781.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.golden {
+  font-family: 'Leckerli One', cursive;
+  font-size: 30px;
+}
+
+.carousel-caption {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+}
+
+.carousel-caption h1 {
+  font-size: 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.carousel-caption h3 {
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+}
+
+.btn-warning {
+  padding: 15px 50px 15px 50px;
+}
+
+/* services */
+.text {
+  font-family: "Merriweather", serif;
+}
+
+.services {
+  font-size: 40px;
+}
+
+.row {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.menu {
+  padding-top: 100px;
+}
+
+.btn-outline-warning {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border: solid;
+}
+
+.col-4 i {
+  color: #ffc107;
+  font-size: 40px;
+}
+
+.features {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.text1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* portfolio */
+.portfolio {
+  background-color: #EEEEEE;
+}
+
+.card {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: none;
+  width: 300px;
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card h6 {
+  font-size: 20px;
+}
+
+.p1 {
+  font-family: "Merriweather", serif;
+  padding-top: none;
+  font-size: 15px;
+}
+
+/* footer */
+footer {
+  min-height: 100px;
+}
+
+.col-md-4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fb {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 0;
+  padding-left: 5px;
+}
+
+.fb i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: black;
+  padding: 12px;
+  margin: 5px;
+}
+
+.fb i:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+/* media */
+@media (max-width: 767px) {
+  .nav {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .col-4 {
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
